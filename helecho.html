@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HELECHO</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: url('hel.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #2c3e50;
+      padding: 20px;
+    }
+
+    h1 {
+      font-family: 'Lobster', cursive;
+      text-align: center;
+      font-size: 2.8em;
+      color: #ffffff;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #117a65;
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+      color: #2c3e50;
+      font-weight: normal;
+    }
+
+    .imagen-planta {
+      display: block;
+      margin: 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .seccion {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 800px;
+      margin: 30px auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .boton {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: #117a65;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      margin: 30px auto;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .boton:hover {
+      background-color: #7b9b1e;
+      transform: scale(1.05);
+    }
+
+    .boton-container {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 data-aos="fade-down">HELECHO</h1>
+
+  <div class="seccion" data-aos="fade-up">
+    <img src="helecho.jpeg" alt="Helecho" class="imagen-planta">
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>¿QUÉ ES EL HELECHO?</h2>
+    <h3>Los helechos son plantas herbáceas o arborescentes con hojas compuestas que se reproducen por esporas. Son de las plantas más antiguas que existen, con fósiles que datan de hace más de 360 millones de años.</h3>
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>PROPIEDADES Y USOS</h2>
+    <h3>Se usan como plantas ornamentales en jardines e interiores. Algunas especies también tienen usos medicinales tradicionales para tratar diversas afecciones.</h3>
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>GENERACIÓN DE ENERGÍA A TRAVÉS DE LA LUZ SOLAR</h2>
+    <h3>Mediante la fotosíntesis, los helechos convierten dióxido de carbono y agua en glucosa y oxígeno usando la luz solar, lo que les permite crecer y desarrollarse.</h3>
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>CANTIDAD DE ENERGÍA GENERADA</h2>
+    <h3>La energía generada por un helecho depende de la luz, temperatura y nutrientes. En general, pueden convertir entre el 3% y el 6% de la energía solar en energía química. Se ha registrado que algunos helechos sanos pueden alcanzar entre 0.75v y 0.90v.</h3>
+  </div>
+
+  <div class="boton-container" data-aos="zoom-in">
+    <a href="plantas.html" class="boton">ATRÁS</a>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>

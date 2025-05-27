@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energía con Plantas</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      background: url('fon.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #2c3e50;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .portada {
+      background-color: rgba(255, 255, 255, 0.92);
+      padding: 60px 40px;
+      border-radius: 20px;
+      box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+      max-width: 800px;
+      width: 90%;
+      animation: slide-in 1s ease-out;
+    }
+
+    @keyframes slide-in {
+      from { transform: translateY(50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .logo {
+      width: 200px;
+      margin-bottom: 35px;
+    }
+
+    h1 {
+      font-family: 'Lobster', cursive;
+      font-size: 2.8em;
+      color: #0e6251;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+    }
+
+    .boton {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #0e6251;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+
+    .boton:hover {
+      background-color: #7b9b1e;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="portada" data-aos="zoom-in">
+    <img src="logo.jpg" alt="Logo proyecto" class="logo">
+    <h1>¿CÓMO GENERAR ENERGÍA A TRAVÉS DE PLANTAS?</h1>
+    <p>Descubre cómo las plantas pueden producir energía limpia y sostenible para transformar nuestro mundo.</p>
+    <a href="imp2.html" class="boton">INGRESAR</a>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+
+</body>
+</html>

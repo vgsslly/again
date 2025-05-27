@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FITONIA</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Lobster&display=swap" rel="stylesheet">
+  
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: url('fit.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #2c3e50;
+      padding: 20px;
+    }
+
+    h1 {
+      font-family: 'Lobster', cursive;
+      text-align: center;
+      font-size: 2.8em;
+      color: #ffffff;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #117a65;
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+      color: #2c3e50;
+      font-weight: normal;
+    }
+
+    .imagen-planta {
+      display: block;
+      margin: 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .seccion {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 800px;
+      margin: 30px auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .boton {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: #117a65;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      margin: 30px auto;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .boton:hover {
+      background-color: #7b9b1e;
+      transform: scale(1.05);
+    }
+
+    .boton-container {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 data-aos="fade-down">FITONIA</h1>
+
+  <div class="seccion" data-aos="fade-up">
+    <img src="fitonia.jpeg" alt="Fitonia" class="imagen-planta">
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>¿QUÉ ES LA FITONIA?</h2>
+    <h3>La fitonia es una planta tropical de origen sudamericano, conocida por sus hojas verdes con venas de colores llamativos, como blanco, rosa o rojo. Se cultiva comúnmente como planta ornamental de interior debido a su aspecto decorativo.</h3>
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>PROPIEDADES Y USOS</h2>
+    <h3>Aunque su uso principal es ornamental, la fitonia también ayuda a mejorar la calidad del aire interior gracias a su proceso de fotosíntesis. Es ideal para espacios cerrados con buena humedad.</h3>
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>GENERACIÓN DE ENERGÍA A TRAVÉS DE LA LUZ SOLAR</h2>
+    <h3>Al igual que otras plantas, la fitonia realiza la fotosíntesis para producir su propia energía, transformando luz solar, agua y dióxido de carbono en glucosa y oxígeno, fundamentales para su crecimiento.</h3>
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>CANTIDAD DE ENERGÍA GENERADA</h2>
+    <h3>La energía generada por la fitonia varía según el ambiente. En condiciones óptimas de humedad y luz, puede generar entre 0.70v y 0.85v mediante la fotosíntesis, convirtiéndose en una planta útil en experimentos de bioenergía.</h3>
+  </div>
+
+  <div class="boton-container" data-aos="zoom-in">
+    <a href="plantas.html" class="boton">ATRÁS</a>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>

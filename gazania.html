@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GAZANIA</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Lobster&display=swap" rel="stylesheet">
+  
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: url('gaz.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #2c3e50;
+      padding: 20px;
+    }
+
+    h1 {
+      font-family: 'Lobster', cursive;
+      text-align: center;
+      font-size: 2.8em;
+      color: #ffffff;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #117a65;
+      text-align: center;
+    }
+
+    h3 {
+      text-align: center;
+      color: #2c3e50;
+      font-weight: normal;
+    }
+
+    .imagen-planta {
+      display: block;
+      margin: 20px auto;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .seccion {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 800px;
+      margin: 30px auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+
+    .boton {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: #117a65;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      margin: 30px auto;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .boton:hover {
+      background-color: #7b9b1e;
+      transform: scale(1.05);
+    }
+
+    .boton-container {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 data-aos="fade-down">GAZANIA</h1>
+
+  <div class="seccion" data-aos="fade-up">
+    <img src="gazania.jpeg" alt="Gazania" class="imagen-planta">
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>¿QUÉ ES LA GAZANIA?</h2>
+    <h3>La gazania es una planta originaria de Sudáfrica, conocida por sus hermosas flores coloridas. Su floración es muy atractiva, especialmente en ambientes cálidos y soleados. Se cultiva principalmente como planta ornamental en jardines debido a su resistencia y belleza.</h3>
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>PROPIEDADES Y USOS</h2>
+    <h3>La gazania es apreciada principalmente por su uso ornamental. No obstante, algunas especies de gazania también han sido utilizadas en la medicina tradicional para tratar infecciones y problemas respiratorios, aunque su uso es menos común comparado con otras plantas medicinales.</h3>
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>GENERACIÓN DE ENERGÍA A TRAVÉS DE LA LUZ SOLAR</h2>
+    <h3>La gazania, como todas las plantas, lleva a cabo la fotosíntesis, utilizando la luz solar para convertir el dióxido de carbono y el agua en glucosa y oxígeno. La glucosa sirve como fuente de energía para el crecimiento y desarrollo de la planta.</h3>
+  </div>
+
+  <div class="seccion" data-aos="fade-up">
+    <h2>CANTIDAD DE ENERGÍA GENERADA</h2>
+    <h3>La cantidad de energía generada por la gazania a través de la fotosíntesis depende de varios factores como la intensidad de la luz solar, la temperatura, la humedad y la disponibilidad de nutrientes. En condiciones óptimas, la gazania puede generar entre 0.40v y 0.60v.</h3>
+  </div>
+
+  <div class="boton-container" data-aos="zoom-in">
+    <a href="plantas.html" class="boton">ATRÁS</a>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>

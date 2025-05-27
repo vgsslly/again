@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLANTAS CON ENERGÍA</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- AOS CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background: url('fon2.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: #2c3e50;
+      padding: 20px;
+    }
+
+    h1 {
+      font-family: 'Lobster', cursive;
+      text-align: center;
+      font-size: 2.8em;
+      color: #ffffff;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+      margin-bottom: 50px;
+    }
+
+    .bloque-planta {
+      background-color: rgba(255, 255, 255, 0.85);
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 600px;
+      margin: 30px auto;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .bloque-planta:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.4);
+    }
+
+    h3 {
+      text-align: center;
+      color: #117a65;
+      margin-top: 0;
+    }
+
+    .imagen-planta {
+      display: block;
+      margin: 10px auto;
+      border-radius: 10px;
+      width: 100%;
+      max-width: 500px;
+      transition: transform 0.3s ease;
+    }
+
+    .imagen-planta:hover {
+      transform: scale(1.02);
+    }
+
+    .boton {
+      display: inline-block;
+      padding: 12px 30px;
+      background-color: #117a65;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 18px;
+      margin: 30px auto;
+      transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    .boton:hover {
+      background-color: #7b9b1e;
+      transform: scale(1.05);
+    }
+
+    .boton-container {
+      text-align: center;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1 data-aos="fade-down">PLANTAS CON MAYOR PRODUCCIÓN DE ENERGÍA FOTOSINTÉTICA</h1>
+
+  <div class="bloque-planta" data-aos="fade-up">
+    <h3>Sábila</h3>
+    <a href="sabila.html"><img src="sabila.jpeg" alt="Sábila" class="imagen-planta"></a>
+  </div>
+
+  <div class="bloque-planta" data-aos="fade-up">
+    <h3>Helechos</h3>
+    <a href="helecho.html"><img src="helecho.jpeg" alt="Helechos" class="imagen-planta"></a>
+  </div>
+
+  <div class="bloque-planta" data-aos="fade-up">
+    <h3>Geranio</h3>
+    <a href="geranio.html"><img src="geranio.jpeg" alt="Geranio" class="imagen-planta"></a>
+  </div>
+
+  <div class="bloque-planta" data-aos="fade-up">
+    <h3>Fitonia</h3>
+    <a href="fitonia.html"><img src="fitonia.jpeg" alt="Fitonia" class="imagen-planta"></a>
+  </div>
+
+  <div class="bloque-planta" data-aos="fade-up">
+    <h3>Sanseviera</h3>
+    <a href="sanseviera.html"><img src="sanseviera.jpeg" alt="Sanseviera" class="imagen-planta"></a>
+  </div>
+
+  <div class="bloque-planta" data-aos="fade-up">
+    <h3>Pelargonium</h3>
+    <a href="pelargonium.html"><img src="pelargonium.jpg" alt="Pelargonium" class="imagen-planta"></a>
+  </div>
+
+  <div class="bloque-planta" data-aos="fade-up">
+    <h3>Gazania</h3>
+    <a href="gazania.html"><img src="gazania.jpeg" alt="Gazania" class="imagen-planta"></a>
+  </div>
+
+  <div class="bloque-planta" data-aos="fade-up">
+    <h3>Maíz</h3>
+    <a href="maiz.html"><img src="maiz.jpeg" alt="Maíz" class="imagen-planta"></a>
+  </div>
+   
+   <div class="bloque-planta" data-aos="fade-up">
+   <h3> Es importante saber con qué plantas podemos mejorar nuestro planeta y ayudarnos los unos
+   a los otros, cabe recalcar que éstas no son las únicas pero 
+   si las más conocidas, y algunas de las que más energía nos pueden compartir.</h3>
+    </div>
+
+  <div class="boton-container" data-aos="zoom-in">
+    <a href="imp2.html" class="boton">ATRÁS</a>
+  </div>
+
+  <!-- AOS JS -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
